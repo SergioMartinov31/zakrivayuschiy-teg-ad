@@ -1,7 +1,7 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 
 
-:root{
+:root {
   --font-main: 'Inter' , sans-serif;
   --font-accent: 'PressStart2P', sans-serif;
   --card-text-width: 400;
@@ -12,7 +12,7 @@
   --contour-color: #000;
 }
 
-.page{
+.page {
   font-family: var(--font-main);
   font-variation-settings:"wght" var(--card-text-width);
 }
