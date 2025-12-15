@@ -10,7 +10,7 @@
 
 */
 
-.like-icon .sparks{
+.like-icon .sparks {
   fill: transparent;
 }
 
@@ -30,7 +30,6 @@
 .like-icon .core {
   fill: transparent;
   transition: fill 0.3s 0.05s linear; 
-  
 }
 
 .like-icon .main-body {
@@ -49,22 +48,14 @@
   transition: fill 0.3s 0.03s linear; 
 }
 
-.like-icon:active .core{
+.like-icon:active .core {
   fill: var(--animation-fill-color, #000);
   transition: fill 0.3s 0s linear; 
 }
 
-.like-icon:active .main-body{
+.like-icon:active .main-body {
   fill: var(--animation-fill-color, #000);
   transition: fill 0.3s 0.03s linear; 
-}
-
-.like-icon .core {
-  transition: fill 0.3s 0.03s linear;
-}
-
-.like-icon .main-body {
-  transition: fill 0.3s linear;
 }
 
 .like-icon.is-liked .core {
