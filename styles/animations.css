@@ -15,17 +15,28 @@
 }
 
 @keyframes like-zoom {
-  0% { scale: 1; }
-  95% { scale: 1.5; }
-  100% { scale: 1; }
+  0% {
+    scale: 1;
+  }
+
+  95% {
+    scale: 1.5;
+  }
+
+  100% {
+    scale: 1;
+  }
 }
 
 @keyframes like-sparks {
-  from { fill: transparent; }
-  to { fill: var(--animation-fill-color); }
+  from {
+    fill: transparent;
+  }
+
+  to {
+    fill: var(--animation-fill-color);
+  }
 }
-
-
 
 .like-icon .core {
   fill: transparent;
@@ -36,7 +47,6 @@
   fill: transparent;
   transition: fill 0.3s linear;
 }
-
 
 .like-icon:hover .core {
   fill: var(--contour-color, #000);

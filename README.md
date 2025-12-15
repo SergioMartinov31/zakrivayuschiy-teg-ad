@@ -1,1 +1,1 @@
-https://sergiomartinov31.github.io/zakrivayuschiy-teg-ad/
+https://github.com/SergioMartinov31/zakrivayuschiy-teg-ad
